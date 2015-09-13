@@ -9,5 +9,5 @@ java -Dcom.sun.management.jmxremote=true -Dcom.sun.management.jmxremote.port=555
 java jmx.monitor.example.Main 127.0.0.1 5555
 ```
 
-### Restriction
-- supported only Oracle JVM
+### Required
+- Oracle JVM 1.7+
